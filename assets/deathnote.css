@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #191919;
+    font-family: 'Poppins', sans-serif;    
+
+}
+
+
+form{
+    /* width: 350px; */
+    width: 40%;
+    padding: 15px;
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    box-shadow: 0 20px 18px 0 rgba(0, 0, 0, 1),0 5px 19px 0 rgba(0, 0, 0, 1);
+}
+
+form h1{
+    color: white;
+    text-transform: uppercase;
+    background: #191919;
+    font-weight: 500;
+}
+
+form h1 img{
+    height: 50px;
+}
+
+form input[type='text'],form input[type='password']
+{
+    border: none;
+    background: none;
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    padding: 10px 10px;
+    /* width: 200px; */
+    width: 50%;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid #3b7cf5;
+}
+
+form input[type='submit']{
+    background: none;
+    display: block;
+    margin: 45px auto 20px auto;
+    text-align: center;
+    border: 2px solid #3b7cf5;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+
+label{
+    /* border: none;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 10px; */
+    /* width: 200px; */
+    width: 50%;
+    outline: none;
+    color: white;
+    /* border-bottom: 1px solid #3b7cf5; */
+    font-size: 13px;
+    color: #ffffff80;
+    font-weight: 200;
+}
+
+form input[type='submit']:hover{
+    background-color: #3b7cf5;
+}
+
+form input[type='checkbox']{
+    position: relative;
+    top: 2px;
+    left: 4px;
+}
+
+
+/* form span{
+    color: gray;
+}
+
+form a{
+    font-size: 12px;
+    color: #b20808;
+    text-transform: none;
+} */
+
+/* .hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    top: 1277px;
+    left: 628px;
+   
+}
+
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+} */
+
+
+

@@ -1,0 +1,239 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url("/assets/img/death\ note.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+    margin: 0%;
+}
+.video_box{
+    width: 720px;
+    height: 378px;
+    background-image: url("/assets/img/deathnote.PNG") ;
+    background-size: cover;
+    padding: 20px;
+    margin: 5% auto;
+    margin-left: 25px;
+    transition: 1s;
+}
+.playbutton{
+    background-image:url("/assets/img/playbutton.png") ;
+    background-size: cover;
+    margin-top :-164px;
+    margin-left: 169px;
+    width: 74px;
+    height: 27px;
+}
+.video_player{
+    width: 736px;
+    height: 416px;
+    margin-top:-19px ;
+    margin-right: 0px;
+    float: left;
+}
+button{
+    width: 144px;
+    height: 27px;
+    float: left;
+    margin-left: 0px;
+    background-color: rgb(0 0 0 / 72%);
+    color: whitesmoke;
+    border-radius: 8px;
+    text-align: center;
+    border-width: 2px;
+    border-style: outset;
+    border-color: #15f4ee;
+    border-image: initial;
+    font-family: ui-monospace;
+    transition: 1s;
+    cursor: pointer;
+    }
+.button :hover{
+    box-shadow: 0 5px 30px 0 #ff1818 inset ;
+}
+iframe {
+    border-width: 2px;
+    border-style: inset;
+    border-color:#15f4ee;
+}
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.typing h1{
+    width: 10ch;
+    animation: typing 5s steps(10), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: 3px solid; */
+    font-family: monospace;
+    color: white;
+    font-size: 2rem;
+    margin-top: 0.65em;
+    margin-bottom: 0.65em;
+}
+.typing h2{
+    width: 13ch;
+    animation: typing 5s steps(13), blink 0.5s step-end infinite alternate;
+    animation-delay: 5s;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: 3px solid; */
+    font-family: monospace;
+    color: white;
+    visibility: hidden;
+    font-size: 1.5rem;
+    margin-top: 0.65em;
+    margin-bottom: 0.65em;
+}
+.typing h3{
+    width: 57ch;
+    animation: typing 20s steps(57), blink 0.5s step-end infinite alternate;
+    animation-delay: 10s;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: 3px solid; */
+    font-family: monospace;
+    color: white;
+    visibility: hidden;
+    font-size: 1rem;
+    margin-top: 0.65em;
+    margin-bottom: 0.65em;
+}
+.typing h4{
+    width: 58ch;
+    animation: typing 20s steps(58), blink 0.5s step-end infinite alternate;
+    animation-delay: 30s;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: 3px solid; */
+    font-family: monospace;
+    color: white;
+    visibility: hidden;
+    font-size: 1rem;
+    margin-top: 0.65em;
+    margin-bottom: 0.65em;
+}.typing h5{
+    width: 54ch;
+    animation: typing 20s steps(61), blink 0.5s step-end infinite alternate;
+    animation-delay: 50s;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: 3px solid; */
+    font-family: monospace;
+    color: white;
+    visibility: hidden;
+    font-size: 1rem;
+    margin-top: 0.65em;
+    margin-bottom: 0.65em;
+}
+.typing h6{
+    width: 61ch;
+    animation: typing 20s steps(61), blink 0.5s step-end infinite alternate;
+    animation-delay: 70s;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+    color: white;
+    visibility: hidden;
+    font-size: 1rem;
+    margin-top: 0.65em;
+    margin-bottom: 0.65em;
+}
+.type h1{
+    width: 61ch;
+    animation: typing 20s steps(61), blink 0.5s step-end infinite alternate;
+    animation-delay: 90s;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+    color: white;
+    visibility: hidden;
+    font-size: 1rem;
+    margin-top: 0.65em;
+    margin-bottom: 0.65em;
+}
+.type h2{
+    width: 45ch;
+    animation: typing 15s steps(45), blink 0.5s step-end infinite alternate;
+    animation-delay: 110s;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+    color: white;
+    visibility: hidden;
+    font-size: 1rem;
+    margin-top: 0.65em;
+    margin-bottom: 0.65em;
+}
+.type h3{
+    width: 57ch;
+    animation: typing 20s steps(57), blink 0.5s step-end infinite alternate;
+    animation-delay: 125s;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+    color: white;
+    visibility: hidden;
+    font-size: 1rem;
+    margin-top: 0.65em;
+    margin-bottom: 0.65em;
+}
+.type h4{
+    width: 28ch;
+    animation: typing 10s steps(28), blink 0.5s step-end infinite alternate;
+    animation-delay: 145s;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+    color: white;
+    visibility: hidden;
+    font-size: 1rem;
+    margin-top: 0.65em;
+    margin-bottom: 0.65em;
+}
+.type h5{
+    width: 56ch;
+    animation: typing 20s steps(56), blink 0.5s step-end infinite alternate;
+    animation-delay: 155s;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+    color: white;
+    visibility: hidden;
+    font-size: 1rem;
+    margin-top: 0.65em;
+    margin-bottom: 0.65em;
+}
+.type h6{
+    width: 55ch;
+    animation: typing 20s steps(55), blink 0.5s step-end infinite alternate;
+    animation-delay:175s;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+    color: white;
+    visibility: hidden;
+    font-size: 1rem;
+    margin-top: 0.65em;
+    margin-bottom: 0.65em;
+}
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+@keyframes blink {
+    50% {
+    border-color: transparent
+    }
+}
